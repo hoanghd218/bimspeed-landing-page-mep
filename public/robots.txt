@@ -1,14 +1,51 @@
+# robots.txt for BimSpeed MEP Tool
+# Allow all search engines to crawl and index the site
+
+User-agent: *
+Allow: /
+Disallow: /node_modules/
+Disallow: /.env
+Disallow: /.git
+Disallow: /.gitignore
+Disallow: /package-lock.json
+Disallow: /pnpm-lock.yaml
+Disallow: /bun.lockb
+
+# Crawl delay (optional - prevents server overload)
+Crawl-delay: 1
+
+# XML Sitemap
+Sitemap: https://www.bimspeed.net/sitemap.xml
+
+# Googlebot specific rules
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 0.5
 
+# Bingbot
 User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Allow social media crawlers
+User-agent: facebookexternalhit
 Allow: /
 
 User-agent: Twitterbot
 Allow: /
 
-User-agent: facebookexternalhit
+User-agent: LinkedInBot
 Allow: /
 
-User-agent: *
+User-agent: Slurp
 Allow: /
