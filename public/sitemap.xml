@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  
+  <!-- Main Landing Page -->
+  <url>
+    <loc>https://www.bimspeed.net/</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.bimspeed.net/og-image.jpg</image:loc>
+      <image:title>BimSpeed MEP Tool - Trang chủ</image:title>
+    </image:image>
+  </url>
+
+  <!-- YouTube Videos in Sitemap -->
+  <url>
+    <loc>https://www.bimspeed.net/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/CN0KX_Or_wQ/default.jpg</video:thumbnail_loc>
+      <video:title>Demo BimSpeed MEP Tool #1</video:title>
+      <video:description>Hướng dẫn sử dụng BimSpeed MEP Tool - Demo #1</video:description>
+      <video:content_loc>https://www.youtube.com/embed/CN0KX_Or_wQ</video:content_loc>
+      <video:duration>300</video:duration>
+    </video:video>
+  </url>
+
+  <url>
+    <loc>https://www.bimspeed.net/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/bdH0dB3Wig0/default.jpg</video:thumbnail_loc>
+      <video:title>Demo BimSpeed MEP Tool #2</video:title>
+      <video:description>Hướng dẫn sử dụng BimSpeed MEP Tool - Demo #2</video:description>
+      <video:content_loc>https://www.youtube.com/embed/bdH0dB3Wig0</video:content_loc>
+      <video:duration>300</video:duration>
+    </video:video>
+  </url>
+
+  <url>
+    <loc>https://www.bimspeed.net/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/34Ak9pMa5dY/default.jpg</video:thumbnail_loc>
+      <video:title>Demo BimSpeed MEP Tool #3</video:title>
+      <video:description>Hướng dẫn sử dụng BimSpeed MEP Tool - Demo #3</video:description>
+      <video:content_loc>https://www.youtube.com/embed/34Ak9pMa5dY</video:content_loc>
+      <video:duration>300</video:duration>
+    </video:video>
+  </url>
+
+</urlset>
